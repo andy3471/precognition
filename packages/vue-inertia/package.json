@@ -23,6 +23,7 @@
     "scripts": {
         "watch": "rm -rf dist && tsc --watch",
         "build": "rm -rf dist && tsc",
+        "prepare": "npm run build",
         "typeCheck": "tsc --noEmit",
         "prepublishOnly": "npm run build",
         "test": "vitest run",
